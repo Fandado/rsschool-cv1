@@ -16,5 +16,4 @@ Listening: A2
 ##Work experience
 Belhard Development (april 2021-now)
 Engineer (Databases department) Front-end developer (Beginner)
-
 https://Fandado.github.io/rsschool-cv/cv
