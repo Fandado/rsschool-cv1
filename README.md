@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Fandado.github.io/rsschool-cv/
