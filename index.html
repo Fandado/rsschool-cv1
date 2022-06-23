@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,700&family=Magra:wght@400;700&family=Red+Hat+Text:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Travel</title>
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="head_icon_name">
+            <img src="./images/logo.svg" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#how_it_works">How It Works</a></li>
+                <li><a href="#plan_your_trip">Plan Your Trip</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#travel_stories">Travel Stories</a></li>
+            </ul>
+        </nav>
+        <button class="button" id="login_button">Login</button>
+
+    </header>
+
+    <main>
+        <section id="how_it_works">
+            <h1>Explore the beauty of the World</h1>
+            <p id="description_main">Receive personalized recommendations for countries, hotels, activities and more</p>
+            <form action="get" method="get">
+                <input name="s" placeholder="What would you like to do?" type="search">
+                <button class="button" id="submit_button" type="submit">Start planning</button>
+              </form>
+        </section>
+        <section id="plan_your_trip">
+            <h2>3 STEPS TO THE PERFECT TRIP</h2>
+            <div class="container">
+                <div class="main_container"> 
+                    <div class="icon_container">
+                        <img src="./images/icon1_1.svg" alt="icon1" id="icon1">
+                    <!-- <img src="./images/icon1.svg" alt="icon1"> -->
+                    </div>
+                    <p>Tell us what you want to do</p>
+                </div>
+                <div class="main_container"> 
+                    <div class="icon_container">
+                        <img src="./images/icon2_2.svg" alt="icon2" id="icon2">
+                    <!-- <img src="./images/icon2.svg" alt="icon2"> -->
+                    </div> 
+                    <p>Share us preferable dates </p>
+                </div>
+                <div class="main_container"> 
+                    <div class="icon_container">
+                        <img src="./images/icon3_3.svg" alt="icon3" id="icon3">
+                    <!-- <img src="./images/icon3.svg" alt="icon3">  -->
+                    </div>
+                    <p>We will give you recommendations</p>
+                </div>
+            </div>
+        </section>
+        <section id="destinations">
+            <h2 id="popular_dest">POPULAR DESTINATIONS</h2>
+                <div class="destinations_block">
+                    <div class="destinations_item"><img src="./images/destination1.jpg" alt="destination1"> <p class="name_of_destination">SPAIN</p></div>
+                    <div class="destinations_item"><img src="./images/destination2.jpg" alt="destination2"> <p class="name_of_destination">JAPAN</p></div>
+                    <div class="destinations_item"><img src="./images/destination3.jpg" alt="destination3"> <p class="name_of_destination">USA</p></div>
+                </div>
+                <div class="punson_box">
+                    <div class="punson"></div>
+                    <div class="punson"></div>
+                    <div class="punson"></div>
+                </div>
+                <button class="button" id="more_button"><img src="./images/bi_arrow-right.svg" alt="arrow" class="arrow">Find More</button>
+        </section>
+        <section id="travel_stories">
+            <h2>TRAVEL STORIES</h2>
+            <div id="travel_page">
+                <div id="block_of_story">
+                    <div class="story">
+                        <img src="./images/story1.jpg" alt="story1" height="250">
+                        <div class="story_block"><h3>10 Photos of Attractive Thailand</h3>
+                        <p class="story_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span class="read_more"> Read More</span></p></div>
+                    </div>
+                    <div class="story">
+                        <img src="./images/story2.jpg" alt="story2" height="250"> 
+                        <div class="story_block"><h3>Canyonlands National Park, Utah</h3>
+                        <p class="story_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span class="read_more"> Read More</span></p></div>
+                    </div>
+                    <div class="story">
+                        <img src="./images/story3.jpg" alt="story3" height="250"> 
+                        <div class="story_block"><h3>I left my heart in the Mountains!</h3>
+                        <p class="story_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span class="read_more"> Read More</span></p></div>
+                    </div>
+                    <div class="story">
+                        <img src="./images/story4.jpg" alt="story4" height="250">
+                        <div class="story_block"><h3>The Longest journey in my life!</h3>
+                        <p class="story_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span class="read_more"> Read More</span></p></div>
+                    </div>
+                    <button class="button" id="more_button1"><img src="./images/bi_arrow-right.svg" alt="arrow" id="arrow">See More</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer_block">.
+            <p id="footer_text">All Rights Reserved © Travel Portal</p>
+            <div class="social_media">
+                <ul>
+                <li><a href="https://www.instagram.com/"><img src="./images/insta.svg" alt="insta"></a></li>
+                <li><a href="https://www.youtube.com/"><img src="./images/youtube.svg" alt="youtube"></a></li>
+                <li><a href="https://twitter.com/"><img src="./images/twitter.svg" alt="twitter"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="gh_rs"><a href="https://github.com/Fandado"><img src="./images/github_original_wordmark_logo_icon_146506.svg" alt="github" width="40"></a>
+        <a href="https://rs.school/js-stage0/"><img src="./images/rs_school.svg" alt="rsschool" width="40"></a></div>
+    </footer>
+</body>
+<script src="./scripts/index.js"></script>
+</html>
+
